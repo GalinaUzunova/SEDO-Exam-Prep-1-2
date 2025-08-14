@@ -25,6 +25,5 @@ pipeline {
                 bat 'dotnet test --configuration Release --no-build'
             }
         }
-        
-      
+    }
 }
