@@ -26,17 +26,5 @@ pipeline {
             }
         }
         
-        stage('Publish') {
-            steps {
-                bat 'dotnet publish --configuration Release --output publish_output'
-                archiveArtifacts artifacts: 'publish_output/**', followSymlinks: false
-            }
-        }
-    }
-    
-    post {
-        always {
-            junit '**/TestResults/*.xml'
-        }
-    }
+      
 }
