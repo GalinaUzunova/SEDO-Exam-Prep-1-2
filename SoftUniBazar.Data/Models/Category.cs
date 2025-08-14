@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using static SoftUniBazar.Data.DataConstants;
 
+
 namespace SoftUniBazar.Data.Models
 {
     public class Category
