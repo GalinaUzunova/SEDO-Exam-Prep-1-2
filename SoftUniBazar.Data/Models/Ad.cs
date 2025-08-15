@@ -4,7 +4,7 @@ using RequiredAttribute = System.ComponentModel.DataAnnotations.RequiredAttribut
 using Microsoft.AspNetCore.Identity;
 using static SoftUniBazar.Data.DataConstants;
 
-// helol
+
 namespace SoftUniBazar.Data.Models
 {
     public class Ad

@@ -96,6 +96,7 @@ namespace SoftUniBazar.Tests
             Assert.AreEqual("All", redirectToActionResult.ActionName);
             Assert.AreEqual("Ad", redirectToActionResult.ControllerName);
         }
+      
 
         [Test]
         public async Task Edit_Get_ShouldReturnViewWithCorrectModel_WhenAdExists()
