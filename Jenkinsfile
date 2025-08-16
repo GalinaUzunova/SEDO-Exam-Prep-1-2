@@ -1,9 +1,7 @@
 pipeline {
     agent any
 
-    tools {
-        dotnet 'dotnet6' // Optional: match name in Jenkins Global Tool Config
-    }
+  
 
     stages {
         stage('Checkout') {
